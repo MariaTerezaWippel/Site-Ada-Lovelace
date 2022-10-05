@@ -1,6 +1,4 @@
 # Site-Ada-Lovelace
-index.html
-
 <!DOCTYPE html>
 
 
