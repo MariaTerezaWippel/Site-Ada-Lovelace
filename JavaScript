@@ -1,0 +1,11 @@
+document.getElementById("BotaoEnviar").addEventListener("click", validaformulario ) 
+
+function validaformulario(){ 
+  if(document.getElementById("nome").value != "" &&document.getElementById("email").value != "" &&
+     document.getElementeById("telefone").value != ""){ 
+       
+      alert("Prontinho! você receberá as novidades.")
+  }else{ 
+      alert("Por favor, preencha os campos nome, email e telefone.") 
+  } 
+} 
